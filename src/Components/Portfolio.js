@@ -2,6 +2,7 @@ import React, { Component, Suspense, lazy } from 'react'
 import Title from './Title'
 import '../Scss/Portfolio.scss'
 import Loader from 'react-loader-spinner'
+import LandingPage from '../images/LandingPage.PNG'
 const Project = lazy(() => import('./Project'))
 class Portfolio extends Component {
     render() {
@@ -68,7 +69,7 @@ class Portfolio extends Component {
                         color="crimson"
                         height={70}
                         width={70}
-            /></div>}><Project src={process.env.PUBLIC_URL + '/LandingPage.PNG'} alt='Landing' name='Musical Store' dis='Made on demand for musical app.' list={['HTML5', 'CSS3' ,'React', 'JavaScript']} git='https://github.com/KhawarHayat/LandingPage' website='https://github.com/KhawarHayat/LandingPage' /></Suspense>
+            /></div>}><Project src={LandingPage} alt='Landing' name='Musical Store' dis='Made on demand for musical app.' list={['HTML5', 'CSS3' ,'React', 'JavaScript']} git='https://github.com/KhawarHayat/LandingPage' website='https://github.com/KhawarHayat/LandingPage' /></Suspense>
                     
                 </div>
 

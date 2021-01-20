@@ -14,7 +14,7 @@ class Portfolio extends Component {
                         color="crimson"
                         height={70}
                         width={70}
-                    /></div>}><Project src='./Portfolio3.PNG' alt='Profile 3' name='Portfolio 3' dis='My online resume which show my skills and experience.' list={['React', 'JavaScript', 'Node', 'Sass', ]} git='https://github.com/KhawarHayat/Portfolio2' website='https://master.d3iivkwy7rqvu6.amplifyapp.com/' /></Suspense>
+                    /></div>}><Project src='./Portfolio3.PNG' alt='Profile 3' name='Portfolio 3' dis='My online resume which show my skills and experience.' list={['React', 'JavaScript', 'Node', 'Sass', ]} git='https://github.com/KhawarHayat/Portfolio3' website='https://master.d3iivkwy7rqvu6.amplifyapp.com/' /></Suspense>
                     <Suspense fallback={<div className='ProjectLoader'><Loader
                         type="Oval"
                         color="crimson"

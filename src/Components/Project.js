@@ -5,7 +5,7 @@ import Model from './Model'
 export default function Project(props) {
     const [show, setShow] = useState(false)
     return (
-        <div className='Project' onClick={() => setShow(!show)}>
+        <div id={props.src} className='Project' onClick={() => setShow(!show)}>
             <img alt={props.alt} src={props.src}/>
             <p>{props.name}</p>
             <FaSearchPlus className='onhover'/>

@@ -1,0 +1,14 @@
+.Footer {
+    height: 10vh;
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    p {
+        span{
+            color: crimson;
+        }
+    }
+}

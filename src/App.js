@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { Suspense, lazy } from 'react';
+import './App.scss';
+import Loader from 'react-loader-spinner'
+const About = lazy(() => import('./Components/About.js'))
+const Contact = lazy(() => import('./Components/Contact.js'))
+const Footer = lazy(() => import('./Components/Footer.js'))
+const Header = lazy(() => import('./Components/Header.js'))
+const Home = lazy(() => import('./Components/Home.js'))
+const Portfolio = lazy(() => import('./Components/Portfolio.js'))
+const Services = lazy(() => import('./Components/Services.js'))
+const Skills = lazy(() => import('./Components/Skills.js'))
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Suspense fallback={<div className='Loader'><Loader
+        type="Oval"
+        color="crimson"
+        height={100}
+        width={100}
+      /></div>}>
+        <Header />
+        <Home />
+        <About />
+        <Services />
+        <Skills />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </Suspense>
     </div>
   );
 }

@@ -1,0 +1,70 @@
+.Portfolio {
+    position: relative;
+    min-height: 100vh;
+    background-color: black;
+    .Projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.Project {
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #222;
+    margin-bottom: 25px;
+    transition: all 1s ease;
+    img {
+        object-fit: cover;
+        height: 200px;
+        width: 300px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+
+    }
+    p {
+        height: 50px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        color: white;
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .onhover {
+        display: none;
+    }
+}
+
+.Project:hover{
+    background-color: crimson;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    .onhover{
+        display: block;
+        height: 50px;
+        width: 50px;
+        color: white;
+    }
+
+}
+.ProjectLoader{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

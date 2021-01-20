@@ -1,0 +1,11 @@
+.services{
+    min-height: 100vh;
+    background-color: black;
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+  
+}

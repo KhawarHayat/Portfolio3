@@ -1,0 +1,91 @@
+.Title{
+    padding-top: 20px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    .title {
+        position: relative;
+        margin: 5% 0%;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: var(--title-color);
+    }
+    .title::before {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        width: 280px;
+        height: 3px;
+        border: 1px solid var(--bg-color);
+        background-color: var(--bg-color);
+        border-radius: 2%;
+        transform: translateX(-18%);
+    }
+    // .title::after {
+    //     content: 'what I do';
+    //     font-size: 25px;
+    //     position: absolute;
+    //     bottom: -15px;
+    //     padding: 0px 5px;
+    //     background-color: var(--after-bgcolor);
+    //     transform: translateX(-140%);
+    //     color: var(--after-color);
+    // }
+    .content{
+        // z-index: 9;
+        font-size: 20px;
+        position: absolute;
+        color:  var(--after-color);
+        background-color: var(--after-bgcolor);
+        top: 88%;
+        right: 45%;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 1024px){
+    .Title{
+        padding-top: 30px;
+        .title {
+            position: relative;
+            margin: 5% 0%;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 600;
+            color: var(--title-color);
+        }
+        .title::before {
+            content: " ";
+            position: absolute;
+            bottom: 0;
+            width: 280px;
+            height: 3px;
+            border: 1px solid var(--bg-color);
+            background-color: var(--bg-color);
+            border-radius: 2%;
+            transform: translateX(-18%);
+        }
+        // .title::after {
+        //     content: 'what I do';
+        //     font-size: 25px;
+        //     position: absolute;
+        //     bottom: -15px;
+        //     padding: 0px 5px;
+        //     background-color: var(--after-bgcolor);
+        //     transform: translateX(-100%);
+        //     color: var(--after-color);
+        // }
+        .content{
+            // z-index: 9;
+            font-size: 20px;
+            position: absolute;
+            color:  var(--after-color);
+            background-color: var(--after-bgcolor);
+            top: 88%;
+            right: 45%;
+            font-weight: 500;
+        }
+    }   
+}

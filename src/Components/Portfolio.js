@@ -10,12 +10,7 @@ class Portfolio extends Component {
             <section id='Portfolio' className='Portfolio max-width'>
                 <Title title='My Portfolio' mycontent='' color='white' bgColor='crimson' afterBgColor='black' afterColor='crimson' />
                 <div className='Projects'>
-                    <Suspense fallback={<div className='ProjectLoader'><Loader
-                        type="Oval"
-                        color="crimson"
-                        height={70}
-                        width={70}
-                    /></div>}><Project src='./Portfolio3.PNG' alt='Profile 3' name='Portfolio 3' dis='My online resume which show my skills and experience.' list={['React', 'JavaScript', 'Node', 'Sass', ]} git='https://github.com/KhawarHayat/Portfolio3' website='https://main.d39x6nn3w5wlal.amplifyapp.com/' /></Suspense>
+                    <Project src='./Portfolio3.PNG' alt='Profile 3' name='Portfolio 3' dis='My online resume which show my skills and experience.' list={['React', 'JavaScript', 'Node', 'Sass', ]} git='https://github.com/KhawarHayat/Portfolio3' website='https://main.d39x6nn3w5wlal.amplifyapp.com/' />
                     <Suspense fallback={<div className='ProjectLoader'><Loader
                         type="Oval"
                         color="crimson"

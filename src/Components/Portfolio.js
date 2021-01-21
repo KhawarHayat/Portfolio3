@@ -21,7 +21,7 @@ class Portfolio extends Component {
                         color="crimson"
                         height={70}
                         width={70}
-                    /></div>}><Project src='./Chaeban.PNG' alt='Chaeban' name='Chaeban Form' dis='Ice Cream making company need a form to get some info from users' list={['React', 'JavaScript', 'Node', 'React Bootstrap', 'Sass']} git='https://github.com/KhawarHayat/Chaeban' website='https://main.d3si9psuoa6e84.amplifyapp.com/' /></Suspense>
+                    /></div>}><Project src='./Chaeban.jpg' alt='Chaeban' name='Chaeban Form' dis='Ice Cream making company need a form to get some info from users' list={['React', 'JavaScript', 'Node', 'React Bootstrap', 'Sass']} git='https://github.com/KhawarHayat/Chaeban' website='https://main.d3si9psuoa6e84.amplifyapp.com/' /></Suspense>
                     <Suspense fallback={<div className='ProjectLoader'><Loader
                         type="Oval"
                         color="crimson"

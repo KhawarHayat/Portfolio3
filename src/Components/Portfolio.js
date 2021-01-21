@@ -69,7 +69,7 @@ class Portfolio extends Component {
                         color="crimson"
                         height={70}
                         width={70}
-            /></div>}><Project src={LandingPage} alt='Landing' name='Musical Store' dis='Made on demand for musical app.' list={['HTML5', 'CSS3' ,'React', 'JavaScript']} git='https://github.com/KhawarHayat/LandingPage' website='https://github.com/KhawarHayat/LandingPage' /></Suspense>
+            /></div>}><Project src='./ProfileKhawar.jpg' alt='Landing' name='Musical Store' dis='Made on demand for musical app.' list={['HTML5', 'CSS3' ,'React', 'JavaScript']} git='https://github.com/KhawarHayat/LandingPage' website='https://github.com/KhawarHayat/LandingPage' /></Suspense>
                     
                 </div>
 
